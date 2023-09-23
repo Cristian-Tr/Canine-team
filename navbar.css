@@ -1,0 +1,44 @@
+.navbar {
+    margin-bottom: 0;
+    background-color: white;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 4.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif;
+  }
+  .navbar li a, .navbar .navbar-brand {
+    color: black !important;
+    font-weight: 800;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #f4511e !important;
+    background-color: yellow !important;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+  }
+  
+  .navbar-brand img {
+    width: 55px;
+    animation: rotation 0s infinite linear;
+  }
+  
+  @media (max-width: 600px) {
+  .navbar-brand img {
+    width: 41px;
+   }
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(360deg);
+    }
+  }
+   

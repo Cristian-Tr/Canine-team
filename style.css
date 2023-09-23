@@ -1,0 +1,382 @@
+body {
+  font: 400 15px Lato, sans-serif;
+  line-height: 1.8;
+  color: #818181;
+}
+
+h1 {
+  color: red;
+  text-align:center;
+}
+
+h2 {
+  text-transform: uppercase;
+  color: #303030;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.375em;
+  color: #303030;
+  font-weight: 500;
+  text-align: justify;
+  text-justify: inter-word;
+}  
+
+h5 {
+  color: black;
+  text-align: center;
+}
+
+p {
+  color: black; 
+  font-weight: 700; 
+  text-align:left;
+}
+
+.jumbotron {
+  background-color: white;
+  color: #fff;
+  padding: 100px 25px;
+  font-family: Montserrat, sans-serif;
+}
+
+.container-fluid {
+  padding: 17px 17px;
+}
+
+.bg-grey {
+  background-color: #f6f6f6;
+}
+
+.logo {
+  color: #f4511e;
+  font-size: 200px;
+}
+
+.thumbnail {
+  padding: 0 0 15px 0;
+  border: none;
+  border-radius: 0;
+}
+
+.thumbnail img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 10px;
+}
+
+.carousel-inner img {
+  width: 100%; /* Set width to 100% */
+  margin: auto;
+}
+
+.carousel-caption h3 {
+  color: #fff !important;
+}
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+  }
+}
+
+
+.item h4 {
+  font-size: 19px;
+  line-height: 1.375em;
+  font-weight: 400;
+  font-style: italic;
+  margin: 70px 0;
+}
+
+.item span {
+  font-style: normal;
+}
+
+.panel {
+  border-radius:0 !important;
+  transition: box-shadow 0.5s;
+}
+
+.panel:hover {
+  box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+}
+
+.panel-footer .btn:hover {
+  background-color: #fff !important;
+  color: #f4511e;
+}
+
+.panel-heading {
+  color: #fff !important;
+  background-color: #f4511e !important;
+  padding: 25px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.panel-footer {
+  background-color: white !important;
+}
+
+.panel-footer h3 {
+  font-size: 32px;
+}
+
+.panel-footer h4 {
+  color: #aaa;
+  font-size: 14px;
+}
+
+.panel-footer .btn {
+  margin: 15px 0;
+  background-color: #f4511e;
+  color: #fff;
+}
+
+footer .glyphicon {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #f4511e;
+}
+
+.slideanim {visibility:hidden;}
+.slide {
+  animation-name: slide;
+  -webkit-animation-name: slide;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  visibility: visible;
+}
+
+@keyframes slide {
+  0% {
+    opacity: 0;
+    transform: translateY(70%);
+  } 
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+@-webkit-keyframes slide {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+  } 
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+}
+@media screen and (max-width: 768px) {
+  .col-sm-4 {
+    text-align: center;
+    margin: 25px 0;
+  }
+  .btn-lg {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .logo {
+    font-size: 150px;
+  }
+}
+
+
+.nav-tabs li a {
+  color: #777;
+}
+
+
+.panel {
+  margin-top: 8px;
+  background: blue;
+  border-radius: 0 !important;
+  transition: box-shadow 0.5s;
+  box-shadow: 10px 1px 50px rgba(0, 0, 0, 0.2);
+}
+
+/* Carousel with my pictures from the JavaScript course */
+#myCarousel img {
+  width: 100%;
+  margin-top: 39px;
+}
+
+.carousel-inner img {
+  width: 100%; /* Set width to 100% */
+  margin: auto;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+  background: transparent;
+  width: 5%;
+}
+
+.glyphicon-chevron-left,
+.glyphicon-chevron-right {
+  color: blue;
+}
+
+.panel-heading1 {
+  color: white !important;
+  background-color: rgb(139, 172, 233) !important;
+  padding-top: 1px;
+  padding-bottom: 25px;
+}
+
+.panel-heading2 {
+  color: white !important;
+  background-color: rgb(139, 172, 233) !important;
+  padding-top: 1px;
+  padding-bottom: 25px;
+}
+
+.panel-heading3 {
+  color: white !important;
+  background-color: red !important;
+  padding-top: 1px;
+  padding-bottom: 25px;
+}
+
+.panel-heading4 {
+  color: white !important;
+  background-color: rgb(47, 221, 47) !important;
+  padding-top: 1px;
+  padding-bottom: 25px;
+}
+
+.panel-heading5 {
+  color: white !important;
+  background-color: yellow !important;
+  padding-top: 1px;
+  padding-bottom: 25px;
+}
+
+.panel-heading6 {
+  color: white !important;
+  background-color: grey !important;
+  padding-top: 1px;
+  padding-bottom: 25px;
+}
+
+.panel-heading7 {
+  color: black !important;
+  background-color: red !important;
+  padding-top: 1px;
+  padding-bottom: 25px;
+}
+
+
+@keyframes shake {
+  20% {
+    transform: translateX(8px);
+  }
+  40% {
+    transform: translateX(-6px);
+  }
+  60% {
+    transform: translateX(4px);
+  }
+  80% {
+    transform: translateX(-2px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.panel-body1 {
+  background-color: rgb(147, 217, 250);
+  padding: 1px;
+}
+
+.panel-body1:hover {
+  background-color: rgb(139, 172, 233);
+  color: yellow;
+}
+
+.panel-body2 {
+  background-color: rgb(147, 217, 250);
+  padding: 1px;
+}
+
+.panel-body2:hover {
+  background-color: rgb(139, 172, 233);
+  color: blue;
+}
+
+.panel-body3 {
+  background-color: rgb(255, 138, 125);
+  padding: 1px;
+}
+
+.panel-body3:hover {
+  background-color: red;
+  color: green;
+}
+
+.panel-body4 {
+  background-color: lightgreen;
+  padding: 1px;
+}
+
+.panel-body4:hover {
+  background-color: rgb(47, 221, 47);
+  color: red;
+}
+
+.panel-body5 {
+  background-color: rgb(252, 252, 120);
+  padding: 1px;
+}
+
+.panel-body5:hover {
+  background-color: yellow;
+  color: red;
+}
+
+.panel-body6 {
+  background-color: rgb(172, 171, 171);
+  padding: 1px;
+}
+
+.panel-body6:hover {
+  background-color: grey;
+  color: red;
+}
+
+.panel-body7 {
+  background-color: lightgrey;
+  padding: 1px;
+}
+
+.panel-body7:hover {
+  background-color: grey;
+  color: red !important;
+}
+
+
+.count
+{
+  color: black;
+  text-align: center;
+  font-weight:700;
+}
+
+#welcome {
+  font-size: 53px;
+  font-family: "Pacifico", "Lato", "Times New Roman";
+  text-shadow: 1px 1px 1px blue;
+  animation: greeting 7.7s linear infinite;
+  padding: 5px;
+}

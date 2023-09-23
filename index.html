@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>GPR TEAM</title>
+  <meta name="Landing page" content="portfolio, apps, Html, Css, JavaScript, jQuery, React" />
+  <meta name="viewport" content="width = device-width, initial-scale = 1.0" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Arial Narrow" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Parisienne" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./navbar.css">
+  <link rel="stylesheet" href="./login.css">
+  <link rel="stylesheet" href="./footer.css">
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  <script src="app1.js"></script>
+  <script src="app2.js"></script>
+</head>
+
+<body>
+
+  <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="./index.html">
+            <img src="./dog1.png" alt="CANINE TEAM">
+          </a>
+          <h3 style="color: cyan; font-weight: 500;">Canine team</h3>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"><span class="fa fa-newspaper-o"
+                  style='font-size: 35px; display: block; text-align: center;'></span>PRESS</a></li>
+            <li><a href="#"><span class="fa fa-television"
+                  style='font-size: 35px; display: block; text-align: center;'></span>TELEVISION</a></li>
+            <li><a href="#"><span class="fa fa-tablet"
+                  style='font-size: 35px; display: block; text-align: center;'></span>INTERNET</a></li>
+            <li><a href="#"><span class="fa fa-wifi"
+                  style='font-size: 35px; display: block; text-align: center;'></span>RADIO</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+
+
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="./header1.png" alt="brat head-quarter" width="1200" height="700">
+          <div class="carousel-caption">
+            <h3>Head Quarter</h3>
+            <p style="color: white; text-align: center;">Bucharest</p>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="./header2.png" alt="brat head office" width="1200" height="700">
+          <div class="carousel-caption">
+            <h3>Head Office</h3>
+            <p style="color: white; text-align: center;">For our team</p>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="./header3.png" alt="Los Angeles" width="1200" height="700">
+          <div class="carousel-caption">
+            <h3>Meeting room</h3>
+            <p style="color: white; text-align: center;">For our members</p>
+          </div>
+        </div>
+
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+
+
+    <!-- Container (About Section) -->
+
+
+    <div class="container-fluid bg-white" style="margin-top: 105px;">
+      <section>
+        <h1 style='color: cyan; text-align: center;'>CANINE TEAM</h1>
+        <h2 style='color: red; text-align: center;'>Animal rescue activities</h2>
+
+
+        <!-- INPUT ALARM MESSAGE button -->
+        <div class="col-sm-12">
+          <h3 style='color: cyan; text-align: center;'>
+            Send us a message if you have seen any animal in danger!</h3><br>
+
+
+          <div class="booking" style="margin: 25px;">
+            <div class="booking-text-item">
+              <div class="booking-heading">
+              </div>
+              <form class="form">
+                <input type="text" list="mylist" style="border: 3px solid cyan; color: cyan;"
+                  placeholder="Write your message here:">
+                <datalist id="mylist">
+                  <option>A dog fell into a canal</option>
+                  <option>A cat is stuck on an pole</option>
+                  <option>A pony is hanging on a fence</option>
+                </datalist>
+                <a href="#" style="border: 3px solid cyan;" class="book">SEND</a>
+              </form>
+            </div>
+          </div>
+        </div>
+        <!-- DONATE MODAL button -->
+        <div class="col-sm-12">
+          <div class="button-container" style="margin-top: 45px;">
+            <div class="button-frame">
+              <button id="buttonLogin" data-toggle="modal" data-target="#myModal">
+                <b style='color: cyan; font-size:12px; font-weight:800;'>DONATE</b>
+              </button>
+            </div>
+          </div>
+
+
+          <!-- Modal -->
+          <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header text-center">
+                  <div class="modal-body">
+                    <form role="form">
+                      <div class="form-group">
+                        <input type="number" style="font-size: 17px; color: red;" class="form-control" id="psw"
+                          placeholder="How many?">
+                      </div>
+                      <button type="submit" style="font-size: 17px; color: red;" class="btn btn-block">Pay
+                        <span class="glyphicon glyphicon-ok"></span>
+                      </button>
+                      <label for="psw" style="font-size: 17px; color: red;"><span
+                          class="glyphicon glyphicon-heart"></span>
+                        Thank you!</label>
+                    </form>
+                  </div>
+
+                  <!-- Modal header 
+                  <br><b style="font-size: 12px;">
+                    Do you want to log into your account?<br>
+                    Please enter your email & password!</b><br>
+                  <input type="text" value="Email" name="email" style="font-size: 12px;"><br>
+                  <input type="password" value="Parola" name="password" style="font-size: 12px;"><br>
+                  <input id="loginButton" type="submit" value="Login" style="font-size: 12px;">
+                  -->
+                  <!-- Modal close button -->
+                  <div class="modal-footer">
+                    <button type="submit" class="btn btn-danger btn-default pull-right" data-dismiss="modal">
+                      <span class="glyphicon glyphicon-remove"></span> Cancel
+                    </button>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+    </div>
+
+    <div class="container-fluid bg-grey" style="margin-top: 15px;">
+      <h3 style="text-align: center; color: red; font-weight: 700; margin-top: 17px;">
+        RESCUE ACTIVITIES</h3>
+      <!--Progress number-->
+
+      <br><br>
+      <div class="col-sm-12">
+        <div class="col-sm-2 col-xs-12">
+          <div class="panel panel-default text-center">
+            <div class="panel-heading1">
+              <br>
+              <h4 style='color: yellow; text-shadow: .5px .5px .5px black; font-weight: 500; text-align: center;'>
+                N. AMERICA</h4>
+            </div>
+            <div class="panel-body1">
+
+              <div>
+                <h4 class="count">1034</h4>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-2 col-xs-12">
+          <div class="panel panel-default text-center">
+            <div class="panel-heading2">
+              <br>
+              <h4 style='color: yellow; text-shadow: .5px .5px .5px black; font-weight: 500; text-align: center;'>
+                S. AMERICA</h4>
+            </div>
+            <div class="panel-body2">
+
+              <div>
+                <h4 class="count">1788</h4>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-2 col-xs-12">
+          <div class="panel panel-default text-center">
+            <div class="panel-heading3">
+              <br>
+              <h4 style='color: green; text-shadow: .5px .5px .5px black; font-weight: 500; text-align: center;'>
+                EUROPE</h4>
+            </div>
+            <div class="panel-body3">
+
+              <div>
+                <h4 class="count">1730</h4>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-sm-2 col-xs-12">
+          <div class="panel panel-default text-center">
+            <div class="panel-heading4">
+              <br>
+              <h4 style='color: red; text-shadow: .5px .5px .5px black; font-weight: 500; text-align: center;'>
+                AUSTRALIA</h4>
+            </div>
+            <div class="panel-body4">
+
+              <div>
+                <h4 class="count">1458</h4>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-2 col-xs-12">
+          <div class="panel panel-default text-center">
+            <div class="panel-heading5">
+              <br>
+              <h4 style='color: blue; text-shadow: .5px .5px .5px black; font-weight: 500; text-align: center;'>
+                AFRICA</h4>
+            </div>
+            <div class="panel-body5">
+
+              <div>
+                <h4 class="count">1835</h4>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col-sm-2 col-xs-12">
+          <div class="panel panel-default text-center">
+            <div class="panel-heading6">
+              <br>
+              <h4 style='color: white; text-shadow: .5px .5px .5px black; font-weight: 500; text-align: center;'>
+                ASIA</h4>
+            </div>
+            <div class="panel-body6">
+
+              <div>
+                <h4 class="count">1035</h4>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+    </div>
+
+
+
+
+
+    </div>
+    </div>
+
+
+
+
+    <div class="container-fluid bg-white">
+
+
+      <div class="col-sm-6 col-12" style="padding-top: 115px;">
+        <img src="./world-map.png" alt="CANINE TEAM MAP" style="vertical-align: middle; max-width:100%; height: auto;">
+      </div>
+
+      <div class="col-sm-6 col-12">
+        <h3 style="text-align: right; color: red; font-weight: 700;">ABOUT US</h3>
+
+
+        <h4 style="margin-top: 53px; color: black; text-align: left;">CANINE TEAM is an organization
+          non-profit which operates in the field of pet rescue, who has more than 150 members from all areas of the
+          world: retailers, publishers, advertising agencies, press broadcasters, television and radio stations,
+          outdoor companies and other interested third parties.<br><br>
+          CANINE TEAM departments:<br>
+
+          ‧ Press Department<br>
+          ‧ Televison Department<br>
+          ‧ Internet Department<br>
+          ‧ Radio Department<br>
+          ‧ Outdoor Department<br>
+          ‧ Social Media Department<br><br>
+          CANINE TEAM's objective is to support the global activity of patrolling and rescuing pets by establishing
+          common
+          methods and standards
+          on how to measure the performance indicators.<br><br>
+
+        </h4>
+      </div>
+
+
+    </div>
+
+
+
+
+
+    <div class="container-fluid bg-white">
+
+      <div class="col-sm-6 col-12">
+        <h3 style="text-align: left; color: red; font-weight: 700;">SERVICES</h3>
+        <h4 style="margin-top: 53px; color: black; text-align: left;">CANINE TEAM services:<br>
+
+          PRESS AUDIT ‧ represents the activity of auditing the information about the pet rescue activity in the printed
+          publications, based on the
+          standards and methodologies established by the members of the association. <br>
+
+          PRODUCTS AUDIT ‧ represents the study that measures the consumption of products and services used in the field
+          of pet rescue.<br>
+
+          INTERNET AUDIT ‧ represents the activity of auditing information about pet rescue activities in online media
+          publications as well as in websites from various fields (retail, production, etc.)s.<br>
+
+          OUTDOOR AUDIT ‧ provides the media and advertising market with comprehensive information on
+          billboard audiences and socio-demographic profiles.<br>
+
+          INVESTMENT AUDIT ‧ represents the study that monitors investments in the advertising of animal rescue
+          activities by companies in the press, television, radio, internet and outdoor.<br>
+
+          </h5>
+      </div>
+
+      <div class="col-sm-6 col-12" style="padding-top: 115px;">
+        <img src="./gprt-promo.png" alt="GPR TEAM PROMO" style="vertical-align: middle; max-width:100%; height: auto;">
+      </div>
+
+    </div>
+
+
+    <div class="container-fluid bg-grey">
+
+      <!-- Events -->
+      <h3 style="text-align: right; color: red; font-weight: 700;">EVENTS</h3>
+      <div class="row container-fluid text-center">
+        <div class="col-sm-12 col-xs-12">
+          <br><br>
+          <!-- Event 1 -->
+          <div class="col-sm-4 col-xs-12" style="border: none;">
+            <img src="./event1.png" class="portrait-picture" style="width: 100%; border-radius: 12px;"><br>
+            <h4 style='font-weight: 500; color: black;'>
+              CANINE TEAM CONFERENCE - Bucharest</h4>
+            <h5 style='font-weight: 500; text-align: justify; text-justify: inter-word; color: black;'>
+              On Thursday, January 12, 2023, the special edition of the "CANINE TEAM" conference, an event dedicated
+              to the Rescue Patrols from around the world, organized by CANINE TEAM, took place in Bucharest, Romania.
+            </h5>
+          </div>
+          <!-- Event 2 -->
+          <div class="col-sm-4 col-xs-12" style="border: none;">
+            <img src="event2.png" class="portrait-picture" style="width: 100%; border-radius: 12px;"><br>
+            <h4 style='font-weight: 500; color: black;'>
+              RESCUE PATROLS DAY - first edition</h4>
+            <h5 style='font-weight: 500; text-align: justify; text-justify: inter-word; color: black;'>
+              On Wednesday, July 17, 2023, the second edition of the "Rescue Patrols Day" conference took place in
+              Paris, France, an event dedicated to the Rescue Patrols from around the world, organized by CANINE TEAM.
+            </h5>
+          </div>
+          <!-- Event 3 -->
+          <div class="col-sm-4 col-xs-12" style="border: none;">
+            <img src="./event3.png" class="portrait-picture" style="width: 100%; border-radius: 12px;"><br>
+            <h4 style='font-weight: 500; color: black;'>
+              CANINE TEAM CONFERENCE - Thessaloniki</h4>
+            <h5 style='font-weight: 500; text-align: justify; text-justify: inter-word; color: black;'>
+              On Tuesday, June 20, 2023, the first edition of the "Media Research Day" conference, an event dedicated to
+              the Rescue Patrols from around the world, organized by CANINE TEAM, took place in Thessaloniki, Greece.
+            </h5>
+          </div><br>
+
+
+
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container-fluid bg-white">
+
+      <h3 style="text-align: center; color: red; font-weight: 700;">ONE OF OUR RESCUE TEAMS</h3>
+      <div class="row container-fluid text-center">
+        <div class="col-sm-12 col-xs-12" style="margin-top: 10px;">
+          <br><br>
+
+          <div class="col-sm-2 col-xs-12">
+            <div class="panel panel-default text-center" style="background-color:white;">
+              <img src="./dog1.png" class="portrait-picture" style="padding: 5px;"><br>
+              <h5 style="color: black; font-weight: 700; text-align:center">
+                SMELLY
+              </h5><br>
+            </div>
+          </div>
+
+          <div class="col-sm-2 col-xs-12">
+            <div class="panel panel-default text-center" style="background-color:white;">
+              <img src="./dog2.png" class="portrait-picture" style="padding: 5px;"><br>
+              <h5 style="color: black; font-weight: 700; text-align:center">
+                BRAVY
+              </h5><br>
+            </div>
+          </div>
+
+          <div class="col-sm-2 col-xs-12">
+            <div class="panel panel-default text-center" style="background-color:white;">
+              <img src="./dog3.png" class="portrait-picture" style="padding: 5px;"><br>
+              <h5 style="color: black; font-weight: 700; text-align:center">
+                GENTLY
+              </h5><br>
+            </div>
+          </div>
+
+          <div class="col-sm-2 col-xs-12">
+            <div class="panel panel-default text-center" style="background-color:white;">
+              <img src="./dog4.png" class="portrait-picture" style="padding: 5px;"><br>
+              <h5 style="color: black; font-weight: 700; text-align:center">
+                STRONGY
+              </h5><br>
+            </div>
+          </div>
+
+          <div class="col-sm-2 col-xs-12">
+            <div class="panel panel-default text-center" style="background-color:white;">
+              <img src="./dog5.png" class="portrait-picture" style="padding: 5px;"><br>
+              <h5 style="color: black; font-weight: 700; text-align:center">
+                SMARTY
+              </h5><br>
+            </div>
+          </div>
+
+          <div class="col-sm-2 col-xs-12">
+            <div class="panel panel-default text-center" style="background-color:white;">
+              <img src="./dog6.png" class="portrait-picture" style="padding: 5px;"><br>
+              <h5 style="color: black; font-weight: 700; text-align:center">
+                HELPY
+              </h5><br>
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+
+
+      <div class="container-fluid bg-white">
+
+        <h3 style="color: red; text-align: center; font-weight: 800;">CONTACTS</h3>
+        <ul class="nav nav-tabs">
+          <li class="active"><a data-toggle="tab" href="#home">Head Office</a></li>
+          <li><a data-toggle="tab" href="#menu1">CEO</a></li>
+          <li><a data-toggle="tab" href="#menu2">SMELLY</a></li>
+          <li><a data-toggle="tab" href="#menu3">BRAVY</a></li>
+          <li><a data-toggle="tab" href="#menu4">GENTLY</a></li>
+          <li><a data-toggle="tab" href="#menu5">STRONGY</a></li>
+          <li><a data-toggle="tab" href="#menu6">SMARTY</a></li>
+          <li><a data-toggle="tab" href="#menu7">HELPY</a></li>
+          <li><a data-toggle="tab" href="#menu8">SUPORT</a></li>
+        </ul>
+
+        <div class="tab-content">
+          <div id="home" class="tab-pane fade in active">
+            <h4 style="color: cyan; font-weight: 700;">CANINE TEAM</h4>
+            <p>Canine Street, Nr. 12, Bucharest, Romania
+            </p>
+            <p>Phone: 012-345.67.89, Fax: 012-345.67.89</p>
+          </div>
+
+          <div id="menu1" class="tab-pane fade">
+            <h4 style="color: black; font-weight: 700;">Cristian T.</h4>
+            <p>E-mail: cristian.t@gprteam.ro</p>
+            <p>Telefon: 012-345.67.89</p>
+          </div>
+
+          <div id="menu2" class="tab-pane fade">
+            <h4 style="color: black; font-weight: 700;">SMELLY</h4>
+            <p></p>
+          </div>
+
+          <div id="menu3" class="tab-pane fade">
+            <h4 style="color: black; font-weight: 700;">BRAVY</h4>
+            <p></p>
+          </div>
+
+          <div id="menu4" class="tab-pane fade">
+            <h4 style="color: black; font-weight: 700;">GENTLY</h4>
+            <p></p>
+          </div>
+
+          <div id="menu5" class="tab-pane fade">
+            <h4 style="color: black; font-weight: 700;">STRONGY</h4>
+            <p></p>
+          </div>
+
+          <div id="menu6" class="tab-pane fade">
+            <h4 style="color: black; font-weight: 700;">SMARTY</h4>
+            <p></p>
+          </div>
+
+          <div id="menu7" class="tab-pane fade">
+            <h4 style="color: black; font-weight: 700;">HELPY</h4>
+            <p></p>
+          </div>
+
+          <div id="menu8" class="tab-pane fade">
+            <h4 style="color: black; font-weight: 700;">SUPORT</h4>
+            <p></p>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+    <footer class="footer-section">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="widget company-intro-widget"> <img src="./sigla.png" alt="SIGLA GPR TEAM"
+                  style="vertical-align: middle; max-width:10rem;">
+                <a href="#" class="site-logo" style="font-weight: 500; color: cyan;">
+                  CANINE TEAM<br>ANIMAL RESCUE TEAM</a>
+                <ul class="company-footer-contact-list">
+                  <li><a href="#" style="font-weight: 500; color: white;"> Terms</a></li>
+                  <li><a href="#" style="font-weight: 500; color: white;"> Cookies</a></li>
+                  <li style="font-weight: 500; color: white;"> &nbsp;</li>
+                  <li><i class="fas fa-phone"></i> 012-345.67.89</li>
+                  <li><i class="fas fa-clock"></i> Monday - Friday 9.00 - 17.00</li>
+                  <li style="font-weight: 500; color: white;"> &nbsp;</li>
+                  <li style="font-weight: 500; color: white;">© Cristian T. - September 2023</li>
+                </ul>
+              </div>
+            </div><!-- widget end -->
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="widget course-links-widget">
+                <h5 class="widget-title" style="font-weight: 500; color: white; text-align:left"> INFORMATION</h5>
+                <ul class="courses-link-list">
+                  <li style="list-style-type:none"><a href="#"> Members</a></li>
+                  <li style="list-style-type:none"><a href="#"> Procedures</a></li>
+                  <li style="list-style-type:none"><a href="#"> ROI</a></li>
+                  <li style="list-style-type:none"><a href="#"> Council</a></li>
+                  <li style="list-style-type:none"><a href="#"> Press</a></li>
+                  <li style="list-style-type:none"><a href="#"> Televison</a></li>
+                  <li style="list-style-type:none"><a href="#"> Internet</a></li>
+                  <li style="list-style-type:none"><a href="#"> Radio</a></li>
+
+                </ul>
+              </div>
+            </div><!-- widget end -->
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="widget latest-news-widget">
+                <h5 class="widget-title" style="font-weight: 500; color: white; text-align:left"> LINKS</h5>
+                <ul class="courses-link-list">
+                  <li style="list-style-type:none"><a href="#"> Partners</a></li>
+                  <li style="list-style-type:none"><a href="#"> Trainings</a>
+                  </li>
+                  <li style="list-style-type:none"><a href="#"> Complaints</a></li>
+                  <li style="list-style-type:none"><a href="#"> Media</a></li>
+                  <li style="list-style-type:none"><a href="#"> Podcast</a></li>
+                  <li style="list-style-type:none"><a href="#"> Careers</a></li>
+                  <li style="list-style-type:none"><a href="#"> Data protection</a></li>
+                  <li style="list-style-type:none"><a href="#"> Social Media</a></li>
+                </ul>
+
+                </li><!-- small-post-item end -->
+                </ul>
+              </div>
+            </div><!-- widget end -->
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="widget newsletter-widget">
+                <h5 class="widget-title" style="font-weight: 500; text-align:left;">
+                  <a style="font-weight: 500; color: white; text-align:left;" href="#">ABOUT</a>
+                </h5>
+                <h5 class="widget-title" style="font-weight: 500; text-align:left;"><a
+                    style="font-weight: 500; color: white;" href="#">CANINE TEAM</a>
+                </h5>
+                <h5 class="widget-title" style="font-weight: 500; text-align:left"><a
+                    style="font-weight: 500; color: white;" href="#">EVENTS</a></h5>
+                <h5 class="widget-title" style="font-weight: 500; text-align:left"><a
+                    style="font-weight: 500; color: white;" href="#">NEWSLETTER</a></h5>
+                <div class="footer-newsletter">
+                  <form class="news-letter-form">
+                    <input type="email" name="news-email" id="news-email" placeholder="Your email address">
+                    <input type="submit" value="Send">
+                  </form>
+                </div>
+              </div>
+            </div><!-- widget end -->
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <!-- Image of location/map -->
+
+
+    <footer class="container-fluid text-center">
+      <a href="#myPage" title="To Top">
+        <span class="glyphicon glyphicon-chevron-up"></span>
+      </a>
+    </footer>
+
+
+  </body>
+
+</html>
