@@ -81,7 +81,7 @@ img {
 .news-letter-form input[type="submit"] {
   width: auto;
   border: none;
-  background-color: #ffb606;
+  background-color: cyan;
   padding: 9px 30px;
   border-radius: 5px;
   -webkit-border-radius: 5px;
