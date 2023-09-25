@@ -6,7 +6,7 @@ body {
 
 h1 {
   color: red;
-  text-align:center;
+  text-align: center;
 }
 
 h2 {
@@ -23,7 +23,7 @@ h4 {
   font-weight: 500;
   text-align: justify;
   text-justify: inter-word;
-}  
+}
 
 h5 {
   color: black;
@@ -31,9 +31,9 @@ h5 {
 }
 
 p {
-  color: black; 
-  font-weight: 700; 
-  text-align:left;
+  color: black;
+  font-weight: 700;
+  text-align: left;
 }
 
 .jumbotron {
@@ -69,16 +69,19 @@ p {
 }
 
 .carousel-inner img {
-  width: 100%; /* Set width to 100% */
+  width: 100%;
+  /* Set width to 100% */
   margin: auto;
 }
 
 .carousel-caption h3 {
   color: #fff !important;
 }
+
 @media (max-width: 600px) {
   .carousel-caption {
-    display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    display: none;
+    /* Hide the carousel text when the screen is less than 600 pixels wide */
   }
 }
 
@@ -96,12 +99,12 @@ p {
 }
 
 .panel {
-  border-radius:0 !important;
+  border-radius: 0 !important;
   transition: box-shadow 0.5s;
 }
 
 .panel:hover {
-  box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+  box-shadow: 5px 0px 40px rgba(0, 0, 0, .2);
 }
 
 .panel-footer .btn:hover {
@@ -120,32 +123,10 @@ p {
   border-bottom-right-radius: 0px;
 }
 
-.panel-footer {
-  background-color: white !important;
+.slideanim {
+  visibility: hidden;
 }
 
-.panel-footer h3 {
-  font-size: 32px;
-}
-
-.panel-footer h4 {
-  color: #aaa;
-  font-size: 14px;
-}
-
-.panel-footer .btn {
-  margin: 15px 0;
-  background-color: #f4511e;
-  color: #fff;
-}
-
-footer .glyphicon {
-  font-size: 20px;
-  margin-bottom: 20px;
-  color: #f4511e;
-}
-
-.slideanim {visibility:hidden;}
 .slide {
   animation-name: slide;
   -webkit-animation-name: slide;
@@ -158,27 +139,32 @@ footer .glyphicon {
   0% {
     opacity: 0;
     transform: translateY(70%);
-  } 
+  }
+
   100% {
     opacity: 1;
     transform: translateY(0%);
   }
 }
+
 @-webkit-keyframes slide {
   0% {
     opacity: 0;
     -webkit-transform: translateY(70%);
-  } 
+  }
+
   100% {
     opacity: 1;
     -webkit-transform: translateY(0%);
   }
 }
+
 @media screen and (max-width: 768px) {
   .col-sm-4 {
     text-align: center;
     margin: 25px 0;
   }
+
   .btn-lg {
     width: 100%;
     margin-bottom: 35px;
@@ -212,7 +198,8 @@ footer .glyphicon {
 }
 
 .carousel-inner img {
-  width: 100%; /* Set width to 100% */
+  width: 100%;
+  /* Set width to 100% */
   margin: auto;
 }
 
@@ -224,7 +211,7 @@ footer .glyphicon {
 
 .glyphicon-chevron-left,
 .glyphicon-chevron-right {
-  color: blue;
+  color: cyan;
 }
 
 .panel-heading1 {
@@ -269,27 +256,24 @@ footer .glyphicon {
   padding-bottom: 25px;
 }
 
-.panel-heading7 {
-  color: black !important;
-  background-color: red !important;
-  padding-top: 1px;
-  padding-bottom: 25px;
-}
-
 
 @keyframes shake {
   20% {
     transform: translateX(8px);
   }
+
   40% {
     transform: translateX(-6px);
   }
+
   60% {
     transform: translateX(4px);
   }
+
   80% {
     transform: translateX(-2px);
   }
+
   100% {
     transform: translateX(0);
   }
@@ -355,28 +339,9 @@ footer .glyphicon {
   color: red;
 }
 
-.panel-body7 {
-  background-color: lightgrey;
-  padding: 1px;
-}
 
-.panel-body7:hover {
-  background-color: grey;
-  color: red !important;
-}
-
-
-.count
-{
+.count {
   color: black;
   text-align: center;
-  font-weight:700;
-}
-
-#welcome {
-  font-size: 53px;
-  font-family: "Pacifico", "Lato", "Times New Roman";
-  text-shadow: 1px 1px 1px blue;
-  animation: greeting 7.7s linear infinite;
-  padding: 5px;
+  font-weight: 700;
 }
