@@ -1,7 +1,7 @@
 a,
 a:active,
 a:focus {
-  color: #6f6f6f;
+  color: red;
   text-decoration: none;
   transition-timing-function: ease-in-out;
   -ms-transition-timing-function: ease-in-out;
@@ -40,14 +40,14 @@ img {
   max-width: 170px;
 }
 .footer-top .widget-title {
-  color: #ffffff;
+  color: red;
   margin-bottom: 40px;
 }
 .courses-link-list li + li {
   margin-top: 10px;
 }
 .courses-link-list li a {
-  color: #ffffff;
+  color: red;
   font-family: var(--para-font);
   font-weight: 400;
 }
@@ -88,7 +88,7 @@ img {
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
-  color: #ffffff;
+  color: red;
   margin-top: 10px;
 }
 .footer-bottom {
