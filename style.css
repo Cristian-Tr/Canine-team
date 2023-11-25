@@ -60,6 +60,7 @@ p {
   padding: 0 0 15px 0;
   border: none;
   border-radius: 0;
+  background: white;
 }
 
 .thumbnail img {
@@ -68,9 +69,29 @@ p {
   margin-bottom: 10px;
 }
 
+.thumbnail:hover {
+  background: yellow;
+}
+
+.thumbnail p {
+  margin-top: 15px;
+  color: green;
+}
+
+.btn {
+  margin: auto;
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+}
+
+.btn:hover {
+  background-color: blue;
+  color: white;
+}
+
 .carousel-inner img {
   width: 100%;
-  /* Set width to 100% */
   margin: auto;
 }
 
@@ -338,7 +359,6 @@ p {
   background-color: grey;
   color: red;
 }
-
 
 .count {
   color: black;
