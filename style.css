@@ -75,10 +75,12 @@ p {
 }
 
 .btn {
+  font-size: 14px;
+  font-weight: 800;
+  color: white;
   margin: auto;
   padding: 10px 20px;
   background-color: red;
-  color: white;
 }
 
 .btn:hover {
