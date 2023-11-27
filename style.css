@@ -76,7 +76,7 @@ p {
 .btn {
   font-size: 14px;
   font-weight: 800;
-  color: white;
+  color: cyan;
   width: 135px;
   margin: auto;
   padding: 10px 20px;
@@ -85,7 +85,7 @@ p {
 
 .btn:hover {
   background-color: cyan;
-  color: white;
+  color: red;
 }
 
 .carousel-inner img {

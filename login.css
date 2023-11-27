@@ -39,9 +39,11 @@ section img {
 .message-heading {
   flex: 1;
 }
+
 .form {
 padding-right: 35px;
 }
+
 .message-heading h3 {
   font-weight: normal;
   color: cyan;
@@ -101,11 +103,14 @@ padding-right: 35px;
 
 /* Login button */
 #button-text {
+  font-size: 12.9px;
+  color: cyan;
   width: 50px;
   height: 15px;
   background-color: transparent;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
+
 .button-container {
   display: flex;
   justify-content: space-around;
