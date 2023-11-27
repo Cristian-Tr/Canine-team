@@ -102,14 +102,6 @@ padding-right: 35px;
 
 
 /* Login button */
-#button-text {
-  font-size: 12.9px;
-  color: cyan;
-  width: 50px;
-  height: 15px;
-  background-color: transparent;
-  margin-bottom: 10px;
-}
 
 .button-container {
   display: flex;
