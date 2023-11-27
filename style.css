@@ -10,7 +10,6 @@ h1 {
 }
 
 h2 {
-  text-transform: uppercase;
   color: #303030;
   font-weight: 600;
   margin-bottom: 30px;
@@ -78,6 +77,7 @@ p {
   font-size: 14px;
   font-weight: 800;
   color: white;
+  width: 135px;
   margin: auto;
   padding: 10px 20px;
   background-color: red;
@@ -94,11 +94,28 @@ p {
 }
 
 .carousel-caption h3 {
-  color: #fff !important;
+  color: white !important;
+  text-shadow: 1px 2px 3px black !important;
+  font-weight: 800;
+  text-align: center;
 }
 
 @media (max-width: 600px) {
   .carousel-caption {
+    display: none;
+    /* Hide the carousel text when the screen is less than 600 pixels wide */
+  }
+}
+
+.carousel-caption p {
+  color: white !important;
+  text-shadow: 1px 2px 3px black !important;
+  font-weight: 800;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .carousel-caption p {
     display: none;
     /* Hide the carousel text when the screen is less than 600 pixels wide */
   }

@@ -7,7 +7,7 @@ section img {
   width: 120px;
 }
 
-.booking {
+.message {
   margin-top: 1px;
   width: 100%;
   text-align: center;
@@ -17,7 +17,7 @@ section img {
   align-items: center;
 }
 
-.booking::before {
+.message::before {
   content: "";
   position: absolute;
   display: block;
@@ -26,7 +26,7 @@ section img {
   right: 0;
 }
 
-.booking-text-item {
+.message-text-item {
   position: absolute;
   width: 100%;
   text-align: center;
@@ -36,19 +36,19 @@ section img {
   align-items: center;
 }
 
-.booking-heading {
+.message-heading {
   flex: 1;
 }
 .form {
 padding-right: 35px;
 }
-.booking-heading h3 {
+.message-heading h3 {
   font-weight: normal;
   color: cyan;
   font-family: Satisfy;
 }
 
-.booking-text-item .form {
+.message-text-item .form {
   flex: 1;
   display: flex;
   flex-flow: row wrap;
@@ -60,9 +60,9 @@ padding-right: 35px;
   padding: 1px;
 }
 
-.booking-text-item input,
-.booking-text-item .date,
-.booking-text-item .book {
+.message-text-item input,
+.message-text-item .date,
+.message-text-item .book {
   padding: 12px;
   margin: 3px;
   font-size: 18px;
@@ -71,22 +71,22 @@ padding-right: 35px;
   border: none;
 }
 
-.booking-text-item input {
+.message-text-item input {
   width: 71%;
   flex: 2;
 }
 
-.booking-text-item .date {
+.message-text-item .date {
   width: 8%;
   flex: 1;
 }
 
-.booking-text-item .book {
+.message-text-item .book {
   width: 21%;
   flex: 1;
 }
 
-.booking-text-item .book {
+.message-text-item .book {
   text-decoration: none;
   color: #000;
   text-transform: uppercase;
@@ -100,6 +100,12 @@ padding-right: 35px;
 
 
 /* Login button */
+#button-text {
+  width: 50px;
+  height: 15px;
+  background-color: transparent;
+  margin-bottom: 12px;
+}
 .button-container {
   display: flex;
   justify-content: space-around;
@@ -118,10 +124,9 @@ padding-right: 35px;
   color: white;
   width: 71px;
   height: 71px;
-  margin-top: -0.1px;
-  font-size: 14px;
+  font-size: 13.5px;
   text-shadow: 0.5px 0.5px 0.5px blue;
-  font-weight: 700;
+  font-weight: 800;
   text-align: center;
   border-radius: 50%;
   border: 1px solid black;
