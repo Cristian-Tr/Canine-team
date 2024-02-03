@@ -252,14 +252,14 @@ p {
 
 .panel-heading1 {
   color: white !important;
-  background-color: rgb(139, 172, 233) !important;
+  background-color: navy !important;
   padding-top: 1px;
   padding-bottom: 25px;
 }
 
 .panel-heading2 {
   color: white !important;
-  background-color: rgb(139, 172, 233) !important;
+  background-color: mediumblue !important;
   padding-top: 1px;
   padding-bottom: 25px;
 }
@@ -280,7 +280,7 @@ p {
 
 .panel-heading5 {
   color: white !important;
-  background-color: yellow !important;
+  background-color: gold !important;
   padding-top: 1px;
   padding-bottom: 25px;
 }
@@ -316,22 +316,22 @@ p {
 }
 
 .panel-body1 {
-  background-color: rgb(147, 217, 250);
+  background-color: dodgerblue;
   padding: 1px;
 }
 
 .panel-body1:hover {
-  background-color: rgb(139, 172, 233);
-  color: yellow;
+  background-color: navy;
+  color: gold;
 }
 
 .panel-body2 {
-  background-color: rgb(147, 217, 250);
+  background-color: lightblue;
   padding: 1px;
 }
 
 .panel-body2:hover {
-  background-color: rgb(139, 172, 233);
+  background-color: mediumblue;
   color: blue;
 }
 
@@ -356,12 +356,12 @@ p {
 }
 
 .panel-body5 {
-  background-color: rgb(252, 252, 120);
+  background-color: #ffc800;
   padding: 1px;
 }
 
 .panel-body5:hover {
-  background-color: yellow;
+  background-color: gold;
   color: red;
 }
 
