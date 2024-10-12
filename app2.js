@@ -38,11 +38,11 @@ $(document).ready(function () {
       }
       currentSlide = rand;
       $('#myCarousel').carousel(rand);
-    }, 3000);
+    }, 5000);
   });
 
   $('.carousel').carousel({
-    interval: 3000
+    interval: 5000
   })
 
   setInterval(function () {
@@ -50,7 +50,7 @@ $(document).ready(function () {
       $(this).prop('Counter', 0).animate({
         Counter: $(this).text()
       }, {
-        duration: 2500,
+        duration: 5000,
         easing: 'swing',
         step: function (now) {
           $(this).text(Math.ceil(now));
