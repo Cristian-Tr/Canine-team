@@ -24,13 +24,13 @@
   }
   
   .navbar-brand img {
-    width: 55px;
-    animation: rotation 0s infinite linear;
+    width: 17px;
+    animation: rotation 8s infinite linear;
   }
   
-  @media (max-width: 600px) {
+  @media (min-width: 768px) {
   .navbar-brand img {
-    width: 41px;
+    width: 53px;
    }
   }
   
@@ -43,3 +43,13 @@
     }
   }
    
+  .navbar-header h3 {
+    font-size: 14px;
+  }
+  
+  @media (min-width: 768px) {
+    .navbar-header h3 {
+      font-size: 23px;
+     }
+    }
+    
