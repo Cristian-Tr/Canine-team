@@ -25,7 +25,7 @@
   
   .navbar-brand img {
     width: 17px;
-    animation: rotation 8s infinite linear;
+    animation: rotation 0s infinite linear;
   }
   
   @media (min-width: 768px) {
@@ -44,7 +44,7 @@
   }
    
   .navbar-header h3 {
-    font-size: 14px;
+    font-size: 12px;
   }
   
   @media (min-width: 768px) {
