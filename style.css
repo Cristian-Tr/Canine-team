@@ -319,19 +319,9 @@ a.right.carousel-control {
   padding: 1px;
 }
 
-.panel-body1:hover {
-  background-color: navy;
-  color: gold;
-}
-
 .panel-body2 {
   background-color: lightblue;
   padding: 1px;
-}
-
-.panel-body2:hover {
-  background-color: mediumblue;
-  color: blue;
 }
 
 .panel-body3 {
@@ -339,19 +329,9 @@ a.right.carousel-control {
   padding: 1px;
 }
 
-.panel-body3:hover {
-  background-color: red;
-  color: green;
-}
-
 .panel-body4 {
   background-color: lightgreen;
   padding: 1px;
-}
-
-.panel-body4:hover {
-  background-color: rgb(47, 221, 47);
-  color: red;
 }
 
 .panel-body5 {
@@ -359,19 +339,9 @@ a.right.carousel-control {
   padding: 1px;
 }
 
-.panel-body5:hover {
-  background-color: gold;
-  color: red;
-}
-
 .panel-body6 {
   background-color: rgb(172, 171, 171);
   padding: 1px;
-}
-
-.panel-body6:hover {
-  background-color: grey;
-  color: red;
 }
 
 .count {
