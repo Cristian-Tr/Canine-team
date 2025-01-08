@@ -133,15 +133,6 @@ p {
   font-style: normal;
 }
 
-.panel {
-  border-radius: 0 !important;
-  transition: box-shadow 0.5s;
-}
-
-.panel:hover {
-  box-shadow: 5px 0px 40px rgba(0, 0, 0, .2);
-}
-
 .panel-footer .btn:hover {
   background-color: #fff !important;
   color: #f4511e;
@@ -223,7 +214,9 @@ p {
   background: blue;
   border-radius: 0 !important;
   transition: box-shadow 0.5s;
-  box-shadow: 10px 1px 50px rgba(0, 0, 0, 0.2);
+  /*box-shadow: 10px 1px 50px rgba(0, 0, 0, 0.2);*/
+  box-shadow: 1px 1px 1px white;
+  border: none;
 }
 
 /* Carousel with my pictures from the JavaScript course */
