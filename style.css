@@ -349,3 +349,92 @@ a.right.carousel-control {
   text-align: center;
   font-weight: 700;
 }
+
+a,
+a:active,
+a:focus {
+  color: red;
+  text-decoration: none;
+  transition-timing-function: ease-in-out;
+  -ms-transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -webkit-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  transition-duration: 0.2s;
+  -ms-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  -webkit-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+footer {
+  background-color: #2351ab;
+  position: relative;
+  overflow: hidden;
+  z-index: 9;
+  padding: 35px;
+}
+
+footer li + li {
+  margin-top: 10px;
+}
+
+footer li a {
+  color: red;
+  font-weight: 500;
+}
+
+footer li a:hover {
+  color: cyan;
+}
+
+.widget-title a:hover {
+  color: cyan;
+}
+
+.news-letter-form {
+  margin-top: 15px;
+}
+
+.news-letter-form input {
+  width: 100%;
+  padding: 12px 25px;
+  border-radius: 5px;
+  background-color: cyan;
+  color: red;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border: none;
+}
+
+.news-letter-form input[type="submit"] {
+  width: auto;
+  border: none;
+  background-color: cyan;
+  padding: 9px 30px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  color: red;
+  margin-top: 10px;
+}
+
+.footer-bottom {
+  padding: 13px 0;
+  border-top: 1px solid cyan;
+}
