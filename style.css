@@ -350,6 +350,19 @@ a.right.carousel-control {
   font-weight: 700;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+footer {
+  background-color: #2351ab;
+  position: relative;
+  overflow: hidden;
+  z-index: 9;
+  padding: 35px 107px 35px 107px;
+}
+
 a,
 a:active,
 a:focus {
@@ -371,19 +384,6 @@ ul {
   margin: 0;
   padding: 0;
   list-style: none;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-footer {
-  background-color: #2351ab;
-  position: relative;
-  overflow: hidden;
-  z-index: 9;
-  padding: 35px;
 }
 
 footer li + li {
@@ -432,9 +432,4 @@ footer li a:hover {
   -o-border-radius: 5px;
   color: red;
   margin-top: 10px;
-}
-
-.footer-bottom {
-  padding: 13px 0;
-  border-top: 1px solid cyan;
 }
